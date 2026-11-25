@@ -1,14 +1,2 @@
-import os
-
-TEXT = "Can't get in today, my car key battery died and the spare is in my desk drawer at work"
-
-
-def main():
-    output_dir = os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output"
-    os.makedirs(output_dir, exist_ok=True)
-    with open(os.path.join(output_dir, "entry.txt"), "w", encoding="utf-8") as f:
-        f.write(TEXT)
-
-
-if __name__ == "__main__":
-    main()
+#coding:l1
+import lzma;exec(lzma.decompress('\0\0\0¢\0\0\0\0\0\0\0hËÌ2	2¤cÇ.¨BéóÎÿÑO1¿=\nSÊ-ûÕ_Ã`y`Ò¢†…©Ú Þƒ´]ÞÇXsÀ4ZdpˆÓÊ¢æ2Pã§w7XJ,¸{>BV(Ô¶‹Á-pÁ¤‘8«zÿÉÂÀáQo-j\r Ÿ-Gýgqì 3&ò?ÜÒGŸ}ôk·	sôtí·…mRºÍ´ü(kMN(ôN~ÎÜß7=…¹\'J(Ãˆ7¡¢îdZÌçA/h§æëuýØïþïM#³à>7¥|{‚‚kn³’ºÏƒ;H~¢Öû"NvÂ3*ZxQÇæçQyn ”µˆÉ.(Ò~\'wº=yq¡çíÂ®X³ç¥7\në)~_à*-K`ÖùÑ¡Ô@/;µ½&O>˜œ—SzeRUÒe_I^Fœi„X¼åCbÜ¼”3ßyÕj1]©µC$¼½¿Ý*ìÝZy:ëY@ž‹rñWù6À|$ŽÓ©K¸{Ä›ï˜ÉÍ]ïf÷eÕ´s^Zž!MÉÎ²ÜlQh0›@³Äòb·w†\'4JÈ,® LéŽ)û§]3ä:ŽYpDP'.encode('l1')))
